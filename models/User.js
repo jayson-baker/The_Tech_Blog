@@ -16,7 +16,7 @@ User.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    user_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -26,6 +26,10 @@ User.init(
       validate: {
         len: [8],
       },
+    },
+    body: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
   },
   {

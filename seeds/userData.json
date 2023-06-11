@@ -1,6 +1,8 @@
 [
   {
-    "user_name": "Sal",
-    "password": "password12345"
+    "id": 1,
+    "user_name": "Jay",
+    "password": "password1234",
+    "body": "Test Text for BODY"
   }
 ]
